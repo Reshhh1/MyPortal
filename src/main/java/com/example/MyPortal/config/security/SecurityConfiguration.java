@@ -30,7 +30,7 @@ public class SecurityConfiguration {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http.authorizeHttpRequests((requests) -> requests
-                        .requestMatchers(HttpMethod.POST, "/sessions", "/users").permitAll()
+                        .requestMatchers(HttpMethod.POST, "/sessions", "/users", "/unauthorized-path").permitAll()
                         .anyRequest().authenticated()
                 )
                 .csrf(AbstractHttpConfigurer::disable)
