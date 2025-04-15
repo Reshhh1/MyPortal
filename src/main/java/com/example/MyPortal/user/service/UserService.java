@@ -1,9 +1,9 @@
-package com.example.MyPortal.service;
+package com.example.MyPortal.user.service;
 
-import com.example.MyPortal.model.BusinessUser;
-import com.example.MyPortal.model.RegisterForm;
-import com.example.MyPortal.data.UserEntity;
-import com.example.MyPortal.data.UserRepository;
+import com.example.MyPortal.user.model.BusinessUser;
+import com.example.MyPortal.user.model.RegisterForm;
+import com.example.MyPortal.user.data.UserEntity;
+import com.example.MyPortal.user.data.UserRepository;
 import com.example.MyPortal.exception.throwable.EntityAlreadyExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.example.MyPortal.service;
+package com.example.MyPortal.user.service;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Component;

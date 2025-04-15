@@ -1,6 +1,6 @@
-package com.example.MyPortal.model;
+package com.example.MyPortal.session.model;
 
-import com.example.MyPortal.data.UserEntity;
+import com.example.MyPortal.user.data.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

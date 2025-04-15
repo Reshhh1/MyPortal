@@ -1,4 +1,4 @@
-package com.example.MyPortal.data;
+package com.example.MyPortal.user.data;
 
 import org.springframework.data.repository.CrudRepository;
 

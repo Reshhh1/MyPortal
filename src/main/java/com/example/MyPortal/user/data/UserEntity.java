@@ -1,7 +1,6 @@
-package com.example.MyPortal.data;
+package com.example.MyPortal.user.data;
 
 import jakarta.persistence.*;
-import org.springframework.security.core.userdetails.User;
 
 @Entity
 @Table(name = "users")

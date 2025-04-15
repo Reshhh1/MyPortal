@@ -1,11 +1,11 @@
-package com.example.MyPortal.controller;
+package com.example.MyPortal.user.controller;
 
-import com.example.MyPortal.data.UserRepository;
-import com.example.MyPortal.model.RegisterForm;
+import com.example.MyPortal.user.data.UserRepository;
+import com.example.MyPortal.user.model.RegisterForm;
 import com.example.MyPortal.exception.throwable.EntityAlreadyExistsException;
 import com.example.MyPortal.exception.throwable.InvalidInputException;
 import com.example.MyPortal.exception.ResponseMessage;
-import com.example.MyPortal.service.UserService;
+import com.example.MyPortal.user.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,7 +18,7 @@ public class UserController {
     private final UserService userService;
 
     @Autowired
-    public UserController(UserService userService, UserRepository userRepository) {
+    public UserController(UserService userService) {
         this.userService = userService;
     }
 

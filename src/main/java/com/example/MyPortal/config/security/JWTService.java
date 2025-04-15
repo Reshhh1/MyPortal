@@ -1,4 +1,4 @@
-package com.example.MyPortal.service;
+package com.example.MyPortal.config.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

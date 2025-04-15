@@ -1,6 +1,7 @@
-package com.example.MyPortal.service;
+package com.example.MyPortal.session.service;
 
-import com.example.MyPortal.model.LoginForm;
+import com.example.MyPortal.config.security.JWTService;
+import com.example.MyPortal.session.model.LoginForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -28,6 +29,4 @@ public class SessionService {
                 new UsernamePasswordAuthenticationToken(email, password)
         ).isAuthenticated();
     }
-
-
 }

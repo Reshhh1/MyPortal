@@ -1,6 +1,6 @@
 package com.example.MyPortal.config.security;
 
-import com.example.MyPortal.service.PasswordEncoder;
+import com.example.MyPortal.user.service.PasswordEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

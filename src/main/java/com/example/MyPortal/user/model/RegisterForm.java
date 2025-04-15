@@ -1,4 +1,4 @@
-package com.example.MyPortal.model;
+package com.example.MyPortal.user.model;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

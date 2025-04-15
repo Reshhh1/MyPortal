@@ -1,4 +1,4 @@
-package com.example.MyPortal.model;
+package com.example.MyPortal.user.model;
 
 import com.example.MyPortal.exception.throwable.InvalidInputException;
 

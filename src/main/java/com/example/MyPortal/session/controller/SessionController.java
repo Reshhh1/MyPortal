@@ -1,7 +1,7 @@
-package com.example.MyPortal.controller;
+package com.example.MyPortal.session.controller;
 
-import com.example.MyPortal.model.LoginForm;
-import com.example.MyPortal.service.SessionService;
+import com.example.MyPortal.session.model.LoginForm;
+import com.example.MyPortal.session.service.SessionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

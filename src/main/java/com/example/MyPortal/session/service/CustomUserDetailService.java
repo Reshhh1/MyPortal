@@ -1,8 +1,8 @@
-package com.example.MyPortal.service;
+package com.example.MyPortal.session.service;
 
-import com.example.MyPortal.data.UserEntity;
-import com.example.MyPortal.data.UserRepository;
-import com.example.MyPortal.model.UserPrincipal;
+import com.example.MyPortal.user.data.UserEntity;
+import com.example.MyPortal.user.data.UserRepository;
+import com.example.MyPortal.session.model.UserPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
