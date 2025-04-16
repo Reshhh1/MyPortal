@@ -1,4 +1,4 @@
-package com.example.MyPortal.config.security;
+package com.example.MyPortal.util.security;
 
 import com.example.MyPortal.user.service.PasswordEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
