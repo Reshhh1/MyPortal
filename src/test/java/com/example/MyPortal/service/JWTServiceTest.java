@@ -1,6 +1,6 @@
 package com.example.MyPortal.service;
 
-import com.example.MyPortal.config.security.JWTService;
+import com.example.MyPortal.util.security.JWTService;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;
 import org.junit.jupiter.api.Assertions;

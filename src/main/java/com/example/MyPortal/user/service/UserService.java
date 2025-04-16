@@ -4,7 +4,7 @@ import com.example.MyPortal.user.model.BusinessUser;
 import com.example.MyPortal.user.model.RegisterForm;
 import com.example.MyPortal.user.data.UserEntity;
 import com.example.MyPortal.user.data.UserRepository;
-import com.example.MyPortal.exception.throwable.EntityAlreadyExistsException;
+import com.example.MyPortal.util.exception.throwable.EntityAlreadyExistsException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
