@@ -1,4 +1,4 @@
-package com.example.MyPortal.config.security;
+package com.example.MyPortal.util.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

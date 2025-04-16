@@ -1,10 +1,9 @@
 package com.example.MyPortal.user.controller;
 
-import com.example.MyPortal.user.data.UserRepository;
 import com.example.MyPortal.user.model.RegisterForm;
-import com.example.MyPortal.exception.throwable.EntityAlreadyExistsException;
-import com.example.MyPortal.exception.throwable.InvalidInputException;
-import com.example.MyPortal.exception.ResponseMessage;
+import com.example.MyPortal.util.exception.throwable.EntityAlreadyExistsException;
+import com.example.MyPortal.util.exception.throwable.InvalidInputException;
+import com.example.MyPortal.util.exception.ResponseMessage;
 import com.example.MyPortal.user.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

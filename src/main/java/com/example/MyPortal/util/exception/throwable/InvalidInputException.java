@@ -1,4 +1,4 @@
-package com.example.MyPortal.exception.throwable;
+package com.example.MyPortal.util.exception.throwable;
 
 public class InvalidInputException extends RuntimeException {
     public InvalidInputException(String message) {

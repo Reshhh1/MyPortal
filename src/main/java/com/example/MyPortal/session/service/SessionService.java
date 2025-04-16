@@ -1,6 +1,6 @@
 package com.example.MyPortal.session.service;
 
-import com.example.MyPortal.config.security.JWTService;
+import com.example.MyPortal.util.security.JWTService;
 import com.example.MyPortal.session.model.LoginForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

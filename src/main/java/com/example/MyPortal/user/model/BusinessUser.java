@@ -1,6 +1,6 @@
 package com.example.MyPortal.user.model;
 
-import com.example.MyPortal.exception.throwable.InvalidInputException;
+import com.example.MyPortal.util.exception.throwable.InvalidInputException;
 
 import java.util.regex.Pattern;
 

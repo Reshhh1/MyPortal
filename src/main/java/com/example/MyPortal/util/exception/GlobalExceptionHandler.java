@@ -1,6 +1,6 @@
-package com.example.MyPortal.exception;
+package com.example.MyPortal.util.exception;
 
-import com.example.MyPortal.exception.throwable.EntityAlreadyExistsException;
+import com.example.MyPortal.util.exception.throwable.EntityAlreadyExistsException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;
